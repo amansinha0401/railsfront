@@ -11,7 +11,7 @@ import Logsing from './Logsing';
 const Home1 = () => {
   return (
     <div>
-      <div className='okay'><h1>Wellcome to Indian Railways<br/>
+      <div className='okay'><h1>Welcome to Indian Railways<br/>
        Press Login/Signup to continue
   </h1></div>
     </div>
