@@ -30,7 +30,6 @@ const App = () => {
               <a href="login">LOGIN/SIGN-UP</a>
               <a href="ls">LOG-IN</a>
               <a href="signup">SIGN-UP</a>
-              <a href="about">ABOUT</a>
             </div>
           </div>
         </div>
