@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+h1 {
+  padding-left: 10px;
+}
+
+#main {
+  display: flex;
+  background-color: black;
+}
+
+#hey {
+  margin: 10px;
+}
+
+#menu {
+  display: flex;
+  padding-top: 20px;
+}
+
+.okay {
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.okay h1 {
+  font-family: 'Racing Sans One', sans-serif;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+#menu1 a {
+  padding-left: 20px;
+}
+
+#menu a {
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+#menu a:hover {
+  color:aqua;
+}
+
+#menu1 {
+  margin-left: 930px;
+}
+
+#brand {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 600;
+  font-size: 33px;
+  color: white;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  background-image: url("p1.jpg"); /* Default background image for desktop */
+}
+
+/* Add background image for mobile view */
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("bgg3.jpg");
+  }
+}
+.box {
+  padding-top: 15px;
+  padding-right: 500px;
+  padding-left: 500px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.ak{
+  background-color:purple;
+}
+button:hover {
+  opacity: 1;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 768px) {
+  #menu {
+    flex-direction: column;
+  }
+
+  #menu1 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    padding: 40px;
+  }
+
+  #menu {
+    padding-top: 10px;
+  }
+
+  #brand {
+    font-size: 28px;
+  }
+}
